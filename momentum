@@ -1,0 +1,11 @@
+int main() {
+int velocity,mass,momentum;
+    printf("Enter velocity:");
+    scanf("%d",&velocity);
+    printf("Enter mass:");
+    scanf("%d",&mass);
+    momentum=velocity*mass;
+    printf("Momentum=%d",momentum);
+
+    return 0;
+}
