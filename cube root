@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h> 
+
+int main() {
+    double num;
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+
+    if (num < 0) {
+        printf("Cannot find real cube root of a negative number.\n");
+    } else {
+        double root = cbrt(num); 
+        printf("The cube root of %.2lf is %.2lf\n", num, root);
+    }
+    return 0;
+}
