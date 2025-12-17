@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int a,output;
+    
+    printf("Enter the number:");
+    scanf("%d",&a);
+    output=a*a;
+    printf("The of square of %d is %d",a,output);
+    return 0;
+}
