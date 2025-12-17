@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h> 
+ int main()
+{
+char a[50]= "SHUBHAM MANE";
+char b[50]= "SHUBHAM";
+if (strstr(a, b) != NULL)
+{
+printf("substring");
+}
+ else
+{
+printf("not substring");
+}
+return 0;
+}
