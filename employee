@@ -1,0 +1,26 @@
+#include <stdio.h>
+struct employee {
+    char name[60];
+    char desig[60];
+    char gender[60];
+    char doj[20];
+    float salary;
+};
+    int main(){
+        struct employee e[2];
+        int i,index;
+        for(i=0;i<2;i++){
+            printf("\n..ENTER EMPLOYEE DETAILS..\n",i=+2);
+            printf("Name:");
+            scanf("%s",&e[i].name);
+            printf("Designation:");
+            scanf("%s",&e[i].desig);
+            printf("Gender:");
+            scanf("%s",&e[i].gender);
+            printf("Date of Joining:");
+            scanf("%s",&e[i].doj);
+            printf("Salary:");
+            scanf("%f",&e[i].salary);
+        }
+        return 0;
+    }
